@@ -41,3 +41,127 @@ body {
   width: 50px;
   margin-right: 10px;
 }
+ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar li:nth-child(1) a {
+  color: orange;
+}
+.navbar li:nth-child(2) a {
+  color: #01acfd;
+}
+.navbar li:nth-child(3) a {
+  color: #05d4df;
+}
+.navbar li:nth-child(4) a {
+  color: #5d58ef;
+}
+
+/* Contact Button */
+.contact-desktop {
+  background-color: #fea301;
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: white;
+  border: none;
+  padding: 0.63rem 0.63rem;
+  border-radius: 0.75rem;
+  width: 12.3rem;
+  height: 3rem;
+  cursor: pointer;
+}
+.contact-mobile {
+  display: none;
+}
+
+/* 3 bar Menu */
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.menu-icon div {
+  width: 100%;
+  height: 4px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 2px;
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
+  body {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .navbar {
+    border-bottom: 2px solid orange;
+  }
+
+  .menu-icon {
+    display: flex;
+  }
+  .contact-mobile {
+    display: block;
+    background-color: #fea301;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: white;
+    border: none;
+    padding: 0.63rem 0.63rem;
+    border-radius: 0.75rem;
+    width: 12.3rem;
+    height: 3rem;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .nav-links li {
+    padding: 10px 0;
+  }
+  .nav-links li:last-child {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .school-font {
+    display: none;
+  }
+  .contact-desktop {
+    display: none;
+  }
+}
