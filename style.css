@@ -16,3 +16,28 @@ body {
   margin-right: 8.75rem;
   background-color: #f7f7f7;
 }
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #f7f7f7;
+  color: white;
+  position: relative;
+}
+
+.school {
+  display: flex;
+  align-items: center;
+}
+.school-font {
+  color: black;
+  font-size: 2 rem;
+  font-weight: bold;
+}
+
+.school img {
+  width: 50px;
+  margin-right: 10px;
+}
