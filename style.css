@@ -155,7 +155,7 @@ ul {
 .enroll-btn {
   background-color: #111111;
   font-weight: bold;
-  margin-top: 24px;
+  margin-top: 1.5rem;
   font-size: 1.25rem;
   color: white;
   border: none;
@@ -171,6 +171,7 @@ ul {
   body {
     margin-left: 0;
     margin-right: 0;
+    max-width: 24.375rem;
   }
 
   /* navbar responsive */
@@ -194,6 +195,36 @@ ul {
   .contact-desktop {
     display: none;
   }
-}
 
-/* banner responsive */
+  /* banner responsive */
+  .banner-section {
+    border: 1px solid black;
+    /* margin-top: 3.88rem; */
+    height: 45.31rem;
+    max-width: 22.31 rem;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5rem;
+    text-align: center;
+    padding: 1.25 rem 0.5rem;
+  }
+  .banner-content {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .banner-text-large {
+    font-size: 2rem;
+    height: 7.5rem;
+  }
+  .banner-text-small {
+    font-size: 0.7 rem;
+    margin-top: 1.25rem;
+  }
+
+  .banner-pic {
+    margin-top: 1.25rem;
+    height: 25.8rem;
+    width: 21rem;
+  }
+}
