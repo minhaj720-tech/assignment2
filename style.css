@@ -12,19 +12,22 @@
 }
 
 body {
-  margin-left: 8.75rem;
-  margin-right: 8.75rem;
   background-color: #f7f7f7;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
 }
 /* Navbar Styling */
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 2rem;
   background-color: #f7f7f7;
   color: white;
   position: relative;
+  height: 62px;
 }
 
 .school {
@@ -83,9 +86,6 @@ ul {
   height: 3rem;
   cursor: pointer;
 }
-.contact-mobile {
-  display: none;
-}
 
 /* 3 bar Menu */
 .menu-icon {
@@ -104,58 +104,93 @@ ul {
   border-radius: 2px;
 }
 
+/* banner section */
+
+/* .banner-section {
+  height: 575px;
+  margin-top: 20px;
+  display: flex;
+  gap: 50px;
+}
+.banner-content {
+  max-width: 640px;
+
+  height: 331px;
+  margin-top: 122px;
+  margin-bottom: 122px;
+  justify-content: center;
+  gap: 1rem;
+}
+.banner-pic {
+  height: 575px;
+  width: 468.61px;
+}
+.banner-text-large {
+  font-size: 3.3rem;
+  font-weight: bold;
+  height: 183px;
+}
+.l-text1 {
+  color: #fea301;
+}
+.l-text2 {
+  color: #111111;
+}
+.l-text3 {
+  color: #01acfd;
+}
+.banner-text-small {
+  font-size: 1.3rem;
+  height: 50px;
+  margin-top: 24px;
+}
+
+.enroll-btn {
+  background-color: #111111;
+  font-weight: bold;
+  margin-top: 24px;
+  font-size: 1.25rem;
+  color: white;
+  border: none;
+  padding: 0.63rem 0.63rem;
+  border-radius: 0.75rem;
+  width: 12.3rem;
+  height: 3rem;
+  cursor: pointer;
+} */
+
 /* Mobile Responsive */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 390px) {
   body {
     margin-left: 0;
     margin-right: 0;
   }
+
+  /* navbar responsive */
   .navbar {
     border-bottom: 2px solid orange;
-  }
-
-  .menu-icon {
+    padding: 1rem 2rem;
     display: flex;
   }
-  .contact-mobile {
+  /* 3 bar Menu */
+  .menu-icon {
     display: block;
-    background-color: #fea301;
-    font-weight: 500;
-    font-size: 1.25rem;
-    color: white;
-    border: none;
-    padding: 0.63rem 0.63rem;
-    border-radius: 0.75rem;
-    width: 12.3rem;
-    height: 3rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+  }
+
+  .menu-icon div {
+    width: 100%;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 2px;
   }
 
   .nav-links {
     display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    background-color: #f7f7f7;
-    text-align: center;
-    padding: 10px 0;
-  }
-
-  .nav-links li {
-    padding: 10px 0;
-  }
-  .nav-links li:last-child {
-    display: flex;
-    justify-content: center;
-  }
-
-  .nav-links.show {
-    display: flex;
   }
 
   .school-font {
@@ -165,3 +200,5 @@ ul {
     display: none;
   }
 }
+
+/* banner responsive */
