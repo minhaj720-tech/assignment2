@@ -199,7 +199,6 @@ ul {
   /* banner responsive */
   .banner-section {
     border: 1px solid black;
-    /* margin-top: 3.88rem; */
     height: 45.31rem;
     max-width: 22.31 rem;
     flex-direction: column-reverse;
@@ -207,11 +206,13 @@ ul {
     justify-content: center;
     margin-top: 0.5rem;
     text-align: center;
-    padding: 1.25 rem 0.5rem;
   }
   .banner-content {
+    max-width: 22.31 rem;
+    max-height: 15.75rem;
     margin-top: 0;
     margin-bottom: 0;
+    padding: 1.25 rem 0.9rem;
   }
   .banner-text-large {
     font-size: 2rem;
@@ -226,5 +227,19 @@ ul {
     margin-top: 1.25rem;
     height: 25.8rem;
     width: 21rem;
+  }
+  .enroll-btn {
+    background-color: #111111;
+    font-weight: bold;
+    margin-top: 1.125rem;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    padding: 0.38rem 1.5rem;
+    border-radius: 0.5rem;
+    width: 8.19rem;
+    height: 2.63rem;
+    cursor: pointer;
+    text-wrap: nowrap;
   }
 }
