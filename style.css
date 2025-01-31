@@ -770,27 +770,26 @@ flex-direction: column;
     align-items: left;
     justify-content: left;
     text-align: left;
- 
+    margin-left: 1rem
   
   
 
   }
   .k-edu-container{
-    margin-left: 0.5rem;
+    margin-left: 0rem;
  
   
-
+   
 
 
   }
   .k-edu{
 
     font-size: 2.23rem;
-    
+    margin-right: 10rem;
   }
   .ki-flex{
     margin-top: 4rem;
-    
     margin-left: 0rem;
 
 
@@ -798,8 +797,6 @@ flex-direction: column;
   
   }
   .footer-img{
-   
-  
         height:4.375rem;
         width: 4.375rem;
         
@@ -826,7 +823,7 @@ flex-direction: column;
       font-weight: 500;
       display: flex;
       flex-direction: column;
-      margin-left:0.5rem ;
+  
       
       }
 
@@ -836,9 +833,7 @@ flex-direction: column;
       }
       .s-media{
         margin-top: 2rem;
-        margin-left: 0.5rem;
-      
-      
+     
       }
       .s-media-font{
       
