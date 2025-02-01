@@ -485,8 +485,7 @@ flex-direction: column;
 /* Mobile Responsive */
 @media screen and (max-width: 576px) {
   body {
-    margin-left: 0;
-    margin-right: 0;
+  
     max-width: 24.375rem;
   }
 
